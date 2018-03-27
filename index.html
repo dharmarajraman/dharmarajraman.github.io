@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Dharmaraj :: Resume</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name=”description” content="Personal resume site of Dharmarajraman"/>
+	<meta name="keywords" content="Dharmarajraman, Dharmaraj raman,Responsive Designer, Bootstrap Designer,Tester,front-end Developer, Ionic developer, web design" />
+
+	<script type="application/x-javascript">
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+	<link type="text/css" rel="stylesheet" href="css/cm-overlay.css" />
+	<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<script src="js/jquery-2.2.3.min.js"></script>	
+</head>
+
+<body>
+	<!-- banner -->
+	<div id="home" class="banner">
+		<div class="banner-agileinfo">
+			<!-- header -->
+			<div class="header">
+				<div class="container">
+					<div class="menu">
+						<a href="" id="menuToggle"> <span class="navClosed"></span> </a>
+						<nav>
+							<a href="#home" class="active scroll">Home</a>
+							<a href="#about" class="scroll">About Me</a>
+							<a href="#skills" class="scroll">Skills</a>
+							<a href="#gallery" class="scroll">My Work</a>
+							<a href="#services" class="scroll">ToDo</a>
+							<a href="#contact" class="scroll">Contact</a>
+						</nav>
+						<script>
+							(function ($) {
+								// Menu Functions
+								$(document).ready(function () {
+									$('#menuToggle').click(function (e) {
+										var $parent = $(this).parent('.menu');
+										$parent.toggleClass("open");
+										var navState = $parent.hasClass('open') ? "hide" : "show";
+										$(this).attr("title", navState + " navigation");
+										// Set the timeout to the animation length in the CSS.
+										setTimeout(function () {
+											console.log("timeout set");
+											$('#menuToggle > span').toggleClass("navClosed").toggleClass("navOpen");
+										}, 200);
+										e.preventDefault();
+									});
+								});
+							})(jQuery);
+						</script>
+
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<!-- //header -->
+			<div class="banner-text mimo">
+				<div class="container">
+					<h1>DHARMARAJ</h1>
+					<h2 class="w3ls-bnrtext">I am <span> UI </span>Designer</h2>
+					<p class="w3ls-p">an interactive web designer with the passion for creativity</p>
+					<a href="#about" class="buy btn-wayra scroll">Scroll Down</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- about -->
+	<div class="agile-about w3ls-section text-center" id="about">
+		<div class="container">
+			<h3 class="agileits-title">about me</h3>
+			<div class="agileits-about-grid">
+				<p><b>Hi, I'm <u>Dharmaraj</u>, a designer,pen tester and I do collaborate with developments and other designers to create the best from scratch.I'm originally from India, I've been active in engineering world for over 2 years.I consider myself a good public speaker, and I have a good sense of humor (btw, who cares!!).For more works please click on my Linkedin page.</p>
+			</div>
+			<a href="#contact" class="wthree- about-link scroll">hire me</a>
+		</div>
+	</div>
+	<div class="agileits-about-btm">
+		<div class="container">
+			<div class="w3-flex">
+			<div class="col-md-4 col-sm-4 ab1 agileits-about-grid2">
+				<span class="fa fa-graduation-cap  wthree-title-list" aria-hidden="true"></span>
+				<h4 class="agileinfo-head">education</h4>
+				<h5>Computer Science and Engineering</h5>
+				<p>Narasu's Sarathy Institute of Technology</p>
+				<h5>High School</h5>
+				<p>Sengunthar Mahajana Higher Secondary School</p>
+			</div>
+			<div class="col-md-4 col-sm-4 ab1 agileits-about-grid3">
+				<span class="fa fa-shield  wthree-title-list" aria-hidden="true"></span>
+				<h4 class="agileinfo-head">expertise</h4>
+				<h5>Front-End Developer</h5>
+				<p>2016-2017</p>
+				<h5>Web Designer</h5>
+				<p>2016</p>
+			</div>
+			<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!-- //about-bottom -->
+	<!-- skills -->
+	<div class="agile-service w3ls-section" id="skills">
+		<div class="container">
+			<div class="col-md-5 w3_agileits-service-left">
+				<h3 class="agileits-title">skills</h3>
+			</div>
+			<div class="col-md-7 skills-right">
+				<div class="vertical-skills  pull-right xs-center">
+					<ul class="list-inline">
+						<li>
+							<div class="skill" style="height:100%; background:#ff9d0d;"><span class="value">100%</span></div><span class="title">HTML</span></li>
+						<li>
+							<div class="skill" style="height:70%; background:#03a9f4;"><span class="value">70%</span></div><span class="title">CSS</span></li>
+						<li>
+							<div class="skill" style="height:60%; background:#b32eca ;"><span class="value">60%</span></div><span class="title">TESTING</span></li>
+						<li>
+							<div class="skill" style="height:60%; background:#03a9f4;"><span class="value">60%</span></div><span class="title">PY</span></li>
+						<li>
+							<div class="skill" style="height:40%; background:#009688;"><span class="value" style="margin: 3em 0;">40%</span></div><span class="title">NG</span></li>
+						<li>
+							<div class="skill" style="height:60%;background:#b32eca ;"><span class="value">50%</span></div><span class="title">JS</span></li>
+
+
+					</ul>
+				</div>
+				
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<div class="w3ls-section agileits-gallery" id="gallery">
+		<div class="container">
+			<h3 class="agileits-title">MY works</h3>
+			<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+				<div id="myTabContent" class="tab-content">
+					<div role="tabpanel" class="tab-pane fade in active" id="learning" aria-labelledby="learning-tab">
+						<div class="w3_tab_img">
+							
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/w2.png">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/w2.png" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Kareza Admin</h5>
+									<p>Angular Admin Template</p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/castree.jpg">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/castree.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Logo</h5>
+									<p>Showcase your talent</p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/oopmart.png">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/oopmart.png" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Logo</h5>
+									<p>Showcase your talent</p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/visiting.jpg">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/visiting.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Visiting Card</h5>
+									<p>Laser cutting type 	</p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/cartoon.jpg">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/cartoon.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Catroon</h5>
+									<p>Cartoon Animo</p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/Astro.jpg">
+										<figure class="imghvr-shutter-in-out-diag-2"><img src="images/Astro.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Cartoon</h5>
+									<p>Cartton Animo</p>
+								</div>
+							</div>
+							
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery.tools.min.js"></script>
+		<script src="js/jquery.mobile.custom.min.js"></script>
+		<script src="js/jquery.cm-overlay.js"></script>
+		<script>
+			$(document).ready(function () {
+			$('.cm-overlay').cmOverlay();
+		});
+		</script>
+	</div>
+	<!-- //menu -->
+	<!-- services -->
+	<div class="w3ls-section services" id="services">
+		<div class="container">
+			<h3 class="agileits-title text-center">Planning To Do</h3>
+			<div class="services-w3ls-row agileits-w3layouts service1 text-center">
+				<h5>1. JavaScript</h5>
+				<p>I'm more/less a beginner in javascript.So I am planning to Master it.</p>
+				<div class="s-top">
+					<span class="fa fa-laptop" aria-hidden="true"></span>
+				</div>
+			</div>
+			<div class="services-w3ls-row agileits-w3layouts middlegrid-w3ls">
+				<div class="col-md-4 services-grid agileits-w3layouts service2">
+					<div class="col-md-10 w3ls-sub-text">
+						<h5>2. Python</h5>
+						<p>I am Interested in Analytics, So python may help me to do the thing which I want in better way</p>
+					</div>
+					<div class="col-md-2 sub-icon">
+						<span class="fa fa-caret-square-o-up" aria-hidden="true"></span>
+					</div>
+				</div>
+				<div class="col-md-4 services-grid img-agileits">
+					<img src="images/services.jpg" class="img-responsive" alt="" />
+				</div>
+				<div class="col-md-4 services-grid agileits-w3layouts service3">
+					<div class="col-md-2 sub-icon">
+						<span class="fa fa-grav" aria-hidden="true"></span>
+					</div>
+					<div class="col-md-10 w3ls-sub-text">
+						<h5>4. macqu.org</h5>
+						<p>I know it would take time to start own firm.But I want to be the Founder/CEO of macqu.org where i could secure websites as a Security Engineer. </p>																	
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="services-w3ls-row agileits-w3layouts service4">
+				<div class="s-top">
+					<span class="fa fa-adjust" aria-hidden="true"></span>
+				</div>
+				<h5>3. Ethical Hacking</h5>
+				<p>I am passionate in hacking,All I wanted is to be a pro penetration tester</p>
+			</div>
+		</div>
+	</div>
+	<!-- //services -->
+	<!-- contact -->
+	<div class="contact-w3-agileits w3ls-section" id="contact">
+		<div class="container">
+			<h3 class="agileits-title cont-w3l">Feel free to contact me</h3>
+			<div class="contact-main-w3ls">
+				<div class="contact-left-w3ls">
+					<div class="mail contact-grid-agileinfo">
+						<div class="col-md-4 col-sm-4 col-xs-4 contact-icon-wthree">
+							<h4>Mail me</h4>
+						</div>
+						<div class="col-md-8  col-sm-8 col-xs-8 contact-text-agileinfo">
+							<a href="mailto:dharmarajraman@gmail.com">dharmarajraman@gmail.com</a><br>
+							<a href="mailto:dharman1995@gmail.com">dharman1995@gmail.com</a>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="call contact-grid-agileinfo">
+						<div class="col-md-4 col-sm-4 col-xs-4 contact-icon-wthree">
+							<h4>Phone</h4>
+						</div>
+						<div class="col-md-8 col-sm-8 col-xs-8 contact-text-agileinfo">
+							<p>+917402294995</p>
+							<p>+918300643052</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="contact-grid-agileinfo">
+						<div class="col-md-4 col-sm-4 col-xs-4 contact-icon-wthree">
+							<h4>Address</h4>
+						</div>
+						<div class="col-md-8 col-sm-8 col-xs-8 contact-text-agileinfo">
+							<p>5-5/68, New 5th ward,<br>Arupadai Nagar,Tharamangalam,<br> SALEM 636502.<br>TamilNadu, India.
+							</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="visit wthree-social-icons contact-grid-agileinfo">
+						<div class="col-md-4 col-sm-4 col-xs-4 contact-icon-wthree">
+							<h4>Follow me</h4>
+						</div>
+						<div class="col-md-8 col-sm-8 col-xs-8 contact-text-agileinfo">
+							<ul class="w3-links">
+								<li><a target="_blank" href="https://www.facebook.com/dharmaraj.raman.1"><i class="fa fa-facebook"></i></a></li>
+								<li><a target="_blank" href="https://twitter.com/Dharmaraj_raman"><i class="fa fa-twitter"></i></a></li>
+								<li><a target="_blank" href="https://www.linkedin.com/in/dharmaraj-raman-433b846b"><i class="fa fa-linkedin"></i></a></li>
+								<li><a target="_blank" href="https://github.com/dharmarajraman"><i class="fa fa-github"></i></a></li>
+								<li><a target="_blank" href="https://api.whatsapp.com/send?phone=917402294995&text=Hi"><i class="fa fa-whatsapp"></i></a></li>
+							</ul>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //contact -->
+	
+	<!-- start-smooth-scrolling -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 1000);
+			});
+		});
+	</script>
+	<!-- //end-smooth-scrolling -->
+	<!-- smooth-scrolling-of-move-up -->
+	<script type="text/javascript">
+		$(document).ready(function () {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
+
+			$().UItoTop({
+				easingType: 'easeOutQuart'
+			});
+
+		});
+	</script>
+<script type="text/javascript" src="js/SmoothScroll.min.js"></script>
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="js/bootstrap.js"></script>
+</body>
+</html>
